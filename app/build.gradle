@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'cz.mojesignage.player'
+    compileSdk 34
+    defaultConfig {
+        applicationId 'cz.mojesignage.player'
+        minSdk 21
+        targetSdk 28
+        versionCode 1
+        versionName '0.1-test'
+    }
+}
